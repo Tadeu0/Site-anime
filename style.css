@@ -1,0 +1,315 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  color: white;
+  background-color: #121212;
+}
+
+header {
+  background-color: #1e1e1e;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.auth .login-btn {
+  background-color: #1e1e1e;
+  color: white;
+  border: 2px solid #4fc3f7;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.auth .login-btn:hover {
+  background-color: #4fc3f7;
+  color: #121212;
+}
+
+.hero {
+  background: linear-gradient(to bottom, #121212 0%, #1e1e1e 100%);
+  padding: 100px 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content-container {
+  max-width: 800px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #4fc3f7;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.access-btn {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  background-color: #250061;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.access-btn:hover {
+  background-color: #d81b60;
+}
+
+.login-link {
+  display: block;
+  margin-top: 15px;
+  color: #8665ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.login-link:hover {
+  color: white;
+}
+
+.recommendations,
+.filters,
+.personalized-recommendations,
+.reviews {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.recommendations h2,
+.filters h2,
+.personalized-recommendations h2,
+.reviews h2 {
+  margin-bottom: 30px;
+  color: #4fc3f7;
+}
+
+.anime-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.anime-card {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.anime-card:hover {
+  transform: translateY(-5px);
+}
+
+.anime-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.anime-card h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.anime-card p {
+  margin: 5px 0;
+  color: #ccc;
+}
+
+.anime-card .rating {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ffc107;
+}
+
+.genre-filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.genre-filters button {
+  background-color: #e040fb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.genre-filters button:hover {
+  background-color: #c218b5;
+}
+
+.personalized-recommendations .carousel {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.personalized-recommendations .carousel-items {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px 0;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.personalized-recommendations .carousel-item {
+  flex: 0 0 auto;
+  width: 250px;
+  scroll-snap-align: start;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personalized-recommendations .carousel-item img {
+  width: 100%;
+  display: block;
+}
+
+.personalized-recommendations .carousel-item h3 {
+  padding: 15px;
+  margin: 0;
+  font-size: 1em;
+  text-align: center;
+}
+
+.personalized-recommendations .carousel-prev,
+.personalized-recommendations .carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 1.2em;
+}
+
+.personalized-recommendations .carousel-prev {
+  left: 10px;
+}
+
+.personalized-recommendations .carousel-next {
+  right: 10px;
+}
+
+.reviews .review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.reviews .review-card {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reviews .review-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  color: #4fc3f7;
+}
+
+.reviews .review-card .user-rating {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffc107;
+}
+
+.reviews .review-card p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #1e1e1e;
+  padding: 20px 30px;
+  text-align: center;
+  border-top: 1px solid #2c2c2c;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul li {
+  margin: 0 15px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+  color: white;
+}
