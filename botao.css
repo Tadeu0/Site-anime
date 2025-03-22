@@ -1,6 +1,6 @@
 body {
   min-height: 100vh;
-  background: lawngreen;
+  background: rgb(137, 134, 134);
   padding: 0;
   margin: 0;
   display: flex;
@@ -10,41 +10,31 @@ body {
   flex-wrap: wrap;
 }
 
-div {
-  height: 460px;
-  width: 280px;
-  background: #fff;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
 div:hover {
-  transform: scale(1.05);
+  transform: scale(1.08);
   transition: 0.4s;
 }
 
 .caracteres p {
   height: 46%;
-  margin-top: -1.2%;
+  margin-top: -5%;
   padding: 0.5rem;
   text-align: center;
   position: relative;
   border-width: 80px;
+  font-size: 20px;
+  color: black;
 }
 
 .botao {
-  background-color: #007bff;
-  color: white;
+  background-color: #002042;
+  color: #ffffff;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 9px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.9s ease;
 }
 
 .botao:hover {
@@ -53,5 +43,6 @@ div:hover {
 
 img {
   position: relative;
-  top: -20px;
+  margin-top: -15px;
+  border-radius: 10px;
 }

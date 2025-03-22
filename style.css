@@ -41,9 +41,9 @@ nav ul li a:hover {
 }
 
 .auth .login-btn {
-  background-color: #1e1e1e;
-  color: white;
-  border: 2px solid #4fc3f7;
+  background-color: #ff0000;
+  color: rgb(0, 0, 0);
+  border: 2px solid #771a0092;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
@@ -57,7 +57,7 @@ nav ul li a:hover {
 
 .hero {
   background: linear-gradient(to bottom, #121212 0%, #1e1e1e 100%);
-  padding: 100px 30px;
+  padding: 240px 100px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -68,6 +68,7 @@ nav ul li a:hover {
   max-width: 800px;
   padding: 40px;
   border-radius: 10px;
+  margin-top: -160px;
 }
 
 .hero h1 {
