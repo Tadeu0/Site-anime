@@ -9,7 +9,9 @@ body {
   gap: 1rem;
   flex-wrap: wrap;
 }
-
+div {
+  margin-top: -20%;
+}
 div:hover {
   transform: scale(1.08);
   transition: 0.4s;
@@ -45,4 +47,12 @@ img {
   position: relative;
   margin-top: -15px;
   border-radius: 10px;
+}
+.setas {
+  margin-top: -72%;
+  margin-left: 126%;
+}
+.set {
+  margin-top: -43px;
+  margin-left: -38%;
 }
