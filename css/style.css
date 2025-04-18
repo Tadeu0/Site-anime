@@ -41,13 +41,18 @@ nav ul li a:hover {
 }
 
 .auth .login-btn {
-  background-color: #ff0000;
+  background-color: #09078e;
   color: rgb(0, 0, 0);
-  border: 2px solid #771a0092;
+  border: 2px solid #09078e;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+.auth .login-btn:hover {
+  transform: scale(1.1);
+  transition: 2s;
+  background-color: #00aeff;
 }
 
 .auth .login-btn:hover {
@@ -96,7 +101,9 @@ nav ul li a:hover {
 }
 
 .access-btn:hover {
-  background-color: #d81b60;
+  background-color: #3700ff;
+  transform: scale(1.1);
+  transition: 2s;
 }
 
 .login-link {

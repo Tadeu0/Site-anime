@@ -20,17 +20,17 @@ body {
   margin-top: 70px;
   margin-left: -80px;
 }
-.but1 {
+.but5 {
   background-color: #9974ff;
   width: 30px;
   height: 30px;
   border-radius: 10px;
   box-shadow: #6f00ff 0px 0px 10px;
 }
+.but1,
 .but2,
-.but3,
 .but4,
-.but5 {
+.but3 {
   background-color: #14004b;
   width: 30px;
   height: 30px;

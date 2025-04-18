@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(66, 66, 255);
+  padding: 0;
+  width: 0;
+  margin: 0;
+  height: 0;
+}
+.img {
+  margin-top: -30px;
+  margin-left: 10px;
+}
+
+.titulo h1 {
+  margin-top: -5px;
+  margin-left: 50px;
+  font-size: 50px;
+  width: 90px;
+}
