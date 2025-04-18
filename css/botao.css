@@ -18,7 +18,7 @@ body {
   justify-content: flex-start;
   gap: 15px;
   margin-top: 70px;
-  margin-left: -80px;
+  margin-left: -40px;
 }
 .but1 {
   background-color: #9974ff;
@@ -81,4 +81,23 @@ img {
   transition: background-color 0.9s ease;
   transform: scale(1.1);
   transition: 1s;
+}
+.setad img {
+  margin-top: -29px;
+  width: 70px;
+  height: 70px;
+}
+.setad img:hover {
+  transform: scale(1.3);
+  transition: 2s;
+}
+.setas img {
+  margin-top: -29px;
+  margin-left: -880%;
+  width: 70px;
+  height: 70px;
+}
+.setas img:hover {
+  transform: scale(1.3);
+  transition: 2s;
 }
