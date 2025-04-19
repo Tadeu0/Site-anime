@@ -87,10 +87,7 @@ img {
   width: 70px;
   height: 70px;
 }
-.setad img:hover {
-  transform: scale(1.3);
-  transition: 2s;
-}
+
 .setas img {
   margin-top: -29px;
   margin-left: -880%;
