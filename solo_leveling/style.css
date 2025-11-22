@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0;
+    border: 1px solid blue;
 }
 
 .container_Sung{
@@ -95,7 +96,7 @@
 
 .img_Han{
     margin-left: 4%;
-    margin-top: -30%;
+    margin-top: -28%;
     height: 90%;
     width: 35%;
     animation: img_Han linear ;
@@ -151,7 +152,7 @@
 }
 .img_choi{
     margin-left: 4%;
-    margin-top: -30%;
+    margin-top: -27%;
     height: 90%;
     width: 35%;
     animation: img_choi linear ;
@@ -234,7 +235,7 @@
 }
 .img_yoo{
     margin-left: 65%;
-    margin-top: -30%;
+    margin-top: -27%;
     height: 95%;
     width: 35%;
     animation: img_yoo  linear ;
