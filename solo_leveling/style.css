@@ -1,14 +1,13 @@
 *{
     margin: 0%;
     padding: 0;
-    border: 1px solid blue;
 }
 
 .container_Sung{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.625),rgba(255, 255, 255, 0.126)),
-    url(img/fundo-de-papel-de-parede-artistico-borrado-e-colorido.jpg);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.625),rgba(255, 255, 255, 0.126));
+    background-color: rgb(17, 17, 106);
     padding-top: 55px;
     background-position: center;
     background-size: cover;
@@ -16,8 +15,8 @@
 .container_choi{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.625),rgba(255, 255, 255, 0.126)),
-    url(img/red.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.625),rgba(255, 255, 255, 0.126));
+    background-color: rgb(131, 6, 6);
     padding-top: 55px;
     background-position: center;
     background-size: cover;
@@ -25,8 +24,8 @@
 .container_Han{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.625),rgba(255, 255, 255, 0.126)),
-    url(img/fundo_han.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.625),rgba(255, 255, 255, 0.126));
+    background-color: rgb(113, 44, 56);
     padding-top: 55px;
     background-position: center;
     background-size: cover;
@@ -34,8 +33,8 @@
 .container_yoo{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.625),rgba(255, 255, 255, 0.126)),
-    url(img/yellow.jpg);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.625),rgba(255, 255, 255, 0.126));
+    background-color: rgb(176, 176, 8);
     padding-top: 55px;
     background-position: center;
     background-size: cover;
@@ -239,7 +238,7 @@
     height: 95%;
     width: 35%;
     animation: img_yoo  linear ;
-    animation-timeline: view(90% 1%);
+    animation-timeline: view(110% 5%);
 }
 
 @keyframes  img_yoo {
