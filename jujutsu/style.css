@@ -1,0 +1,349 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.container_yuji{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.625),rgba(255, 255, 255, 0.126));
+    background-color: #8B1E24;
+}
+
+.container_Toji{
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.625),rgba(255, 255, 255, 0.126));
+    background-color: rgb(0, 0, 0);
+}
+.container_gojo{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.625),rgba(255, 255, 255, 0.126));
+    background-color: rgb(101, 6, 112);
+}
+.container_sukuna{
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.625),rgba(255, 255, 255, 0.126));
+    background-color: #c80a10;
+    margin-top: -10px;
+}
+.container_megumi{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right#24344D,rgba(255, 255, 255, 0.126));
+    background-color: #0B1E3F;
+    margin-top: -10px;
+}
+
+
+.estrutura_text{
+    width: 50%;
+    height: 50vh;
+    margin-left: 35%;
+    margin-top: -45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.titulo_yuji{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to right,  #61080c, #ff0008, #D8343A);
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 30px;
+    animation: text_yuji 2s linear;
+}
+.sobre_yuji{
+    font-size: 20px;
+    font-weight: bold;
+    width: 60%;
+    animation: text_yuji 3s linear;
+    color: white;
+}
+.img_yuji{
+    background-image: url(img/yuji.png);
+    width: 25%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    animation: img_yuji 3s linear;
+}
+
+@keyframes img_yuji {
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+        filter: blur(15px);
+    }
+    100%{
+        transform: translateX(2%);
+        opacity: 1;
+        filter: blur(0px);
+    }
+    
+}
+@keyframes text_yuji {
+    0%{
+        transform: translateY(200px);
+        opacity: 0;
+        filter: blur(15px);
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+        filter: blur(0px);
+    }
+    
+}
+
+
+
+
+
+
+
+.estrutura_text{
+    width: 50%;
+    height: 50vh;
+    margin-left: 25%;
+    margin-top: -35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.titulo_toji{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(115, 115, 115), rgb(255, 255, 255));
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 30px;
+    animation: text_toji linear;
+    animation-timeline: view(90% 1%);
+}
+.sobre_toji{
+    font-size: 20px;
+    font-weight: bold;
+    width: 60%;
+    animation: text_toji linear ;
+    animation-timeline: view(90% 1%);
+    color: white;
+}
+.img_toji{
+    background-image: url(img/toji.png);
+    width: 25%;
+    height: 100vh;
+    margin-left: 75%;
+    background-position: center;
+    background-size: cover;
+    animation: img_toji linear ;
+    animation-timeline: view(100% 1%);
+}
+
+@keyframes img_toji {
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes text_toji {
+    0%{
+        transform: translateY( 200px );
+        opacity: 0;
+        filter: blur(5);
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+        filter: blur(0);
+    }
+    
+}
+
+
+.titulo_gojo{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to right, rgb(48, 1, 64), rgb(191, 0, 255), rgb(221, 121, 254)) ;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 30px;
+    animation: text_gojo linear;
+    animation-timeline: view(90% 1%);
+}
+.sobre_gojo{
+    font-size: 20px;
+    font-weight: bold;
+    width: 60%;
+    animation: text_gojo linear ;
+    animation-timeline: view(90% 1%);
+    color: white;
+}
+.img_gojo{
+    background-image: url(img/gojo.png);
+    width: 28%;
+    height: 100vh;
+    margin-left: 8%;
+    background-position: center;
+    background-size: cover;
+    animation: img_gojo linear ;
+    animation-timeline: view(100% 1%);
+}
+
+@keyframes img_gojo {
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes text_gojo {
+    0%{
+        transform: translateY( 200px );
+        opacity: 0;
+        filter: blur(5);
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+        filter: blur(0);
+    }
+    
+} 
+
+
+
+
+
+.titulo_megumi{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(131, 116, 136), rgb(123, 123, 123)) ;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 30px;
+    animation: text_megumi linear;
+    animation-timeline: view(90% 1%);
+}
+.sobre_megumi{
+    font-size: 20px;
+    font-weight: bold;
+    width: 60%;
+    animation: text_megumi linear ;
+    animation-timeline: view(90% 1%);
+    color: white;
+}
+.img_megumi{
+    background-image: url(img/megum.png);
+    width: 28%;
+    height: 100vh;
+    margin-left: 4%;
+    background-position: center;
+    background-size: cover;
+    animation: img_megumi linear ;
+    animation-timeline: view(100% 1%);
+}
+
+@keyframes img_megumi {
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes text_megumi {
+    0%{
+        transform: translateY( 200px );
+        opacity: 0;
+        filter: blur(5);
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+        filter: blur(0);
+    }
+    
+} 
+.titulo_sukuna{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to right, #f46860, #a76765, #D9A6A3) ;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 30px;
+    animation: text_sukuna linear;
+    animation-timeline: view(90% 1%);
+}
+.sobre_sukuna{
+    font-size: 20px;
+    font-weight: bold;
+    width: 60%;
+    animation: text_sukuna linear ;
+    animation-timeline: view(90% 1%);
+    color: white;
+}
+.img_sukuna{
+    background-image: url(img/sukuna.png);
+    width: 30%;
+    height: 100vh;
+    margin-left: 68%;
+    background-position: center;
+    background-size: cover;
+    animation: img_sukuna linear ;
+    animation-timeline: view(100% 1%);
+}
+
+@keyframes img_sukuna {
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes text_sukuna {
+    0%{
+        transform: translateY( 200px );
+        opacity: 0;
+        filter: blur(5);
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+        filter: blur(0);
+    }
+    
+} 
