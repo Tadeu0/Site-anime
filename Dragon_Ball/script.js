@@ -21,6 +21,9 @@
      let bt_white = document.getElementById('bot_w')
      bt_white.style.filter = 'brightness(30%)'
 
+     let bt_n = document.getElementById('bot_n')
+     bt_n.style.filter = 'brightness(100%)'
+
 }
  function vermelho(){
      
@@ -44,6 +47,9 @@
 
      let bt_white = document.getElementById('bot_w')
      bt_white.style.filter = 'brightness(30%)'
+
+     let bt_r= document.getElementById('bot_r')
+     bt_r.style.filter = 'brightness(100%)'
 }
  function  azul(){
      
@@ -67,6 +73,9 @@
 
      let bt_white = document.getElementById('bot_w')
      bt_white.style.filter = 'brightness(30%)'
+
+     let bot_a = document.getElementById('bot_a')
+     bt_a.style.filter = 'brightness(100%)'
 }
  function Instinto(){
      
@@ -88,6 +97,9 @@
      let bt_blue = document.getElementById('bot_b')
      bt_blue.style.filter = 'brightness(30%)'
 
-     let bt_white = document.getElementById('bot_n')
-     bt_white.style.filter = 'brightness(30%)'
+     let bt_n = document.getElementById('bot_n')
+     bt_n.style.filter = 'brightness(30%)'
+    
+     let bt_white = document.getElementById('bot_w')
+     bt_white.style.filter = 'brightness(100%)'
 }
