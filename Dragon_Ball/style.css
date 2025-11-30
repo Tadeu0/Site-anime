@@ -21,7 +21,7 @@
     margin-left: 1%;
     display: flex;
     justify-content: center;
-    /* border: 1px solid green; */
+    border: 1px solid green;
 }
 .titulo_goku{
     width: 50%;
