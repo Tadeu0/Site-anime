@@ -74,7 +74,7 @@
      let bt_white = document.getElementById('bot_w')
      bt_white.style.filter = 'brightness(30%)'
 
-     let bot_a = document.getElementById('bot_a')
+     let bot_a = document.getElementById('bot_b')
      bt_a.style.filter = 'brightness(100%)'
 }
  function Instinto(){
