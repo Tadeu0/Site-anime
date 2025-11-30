@@ -123,7 +123,7 @@
     align-items: center;
 }
 
-.solo_leveling,.Jujutsu_Kaisen{
+.solo_leveling,.Jujutsu_Kaisen,.Demon_slayer{
     width: 20%;
     height: 50vh;
     background-color: rgba(255, 255, 255, 0.033);
@@ -172,7 +172,17 @@
     background-size: cover;
 
 }
-.titulo_solo{
+.imagem_d{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.167),rgba(0, 0, 0, 0.912)) ,
+    url(imagem/7797560a7132fe8d40299ccce155c621.jpg);
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px 10px 0px 0px;
+    background-position: center;
+    background-size: cover;
+
+}
+.titulo_solo,.titulo_d{
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
@@ -225,4 +235,29 @@
     background-color: wheat;
     color: black;
     transition: 0.7s;
+}
+
+.estrutura_d{
+    background-color: rgba(255, 255, 255, 0);
+    height: 30vh;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bot_d{
+    margin-top: 50%;
+    width: 60%;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration:none;
+    text-align: center;
+}
+.bot_d p{
+    margin-top: 5px;
+    font-size: 19px;
 }
