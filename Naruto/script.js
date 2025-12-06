@@ -1,5 +1,5 @@
 const bot = document.querySelectorAll(".bots")
-const image = document.querySelectorAll(".personagens")
+const image = document.querySelectorAll(".fundo")
 
 bot.forEach((botao, list) => {
     botao.addEventListener('click', () => {
@@ -15,7 +15,7 @@ bot.forEach((botao, list) => {
 })
 
 function remover_img() {
-    const r_i =  document.querySelector('.personagens.selecionar')
+    const r_i =  document.querySelector('.fundo.selecionar')
     r_i.classList.remove('selecionar')
 
 }
