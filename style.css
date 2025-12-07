@@ -98,7 +98,7 @@
 }
 #anime{
     width: 100%;
-    height: 100vh;
+    height: 140vh;
     background-color: rgba(0, 0, 0, 0.853);
     display: flex;
     flex-direction: column;
@@ -112,15 +112,15 @@
     color: white;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5%;
 }
 .estrutura_cards{
     width: 90%;
     height: 90vh;
-    background-color: rgba(255, 255, 255, 0);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-wrap:wrap;
     align-items: center;
+    gap: 20px;
 }
 
 .solo_leveling,
@@ -158,6 +158,15 @@
 .imagem_solo{
     background-image: linear-gradient(rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.688)) ,
     url(imagem/imagens-de-solo-leveling.jpg);
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px 10px 0px 0px;
+    background-position: center;
+    background-size: cover;
+}
+.imagem_n{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.688)) ,
+    url(imagem/NARUTO.jpg);
     width: 100%;
     height: 20vh;
     border-radius: 10px 10px 0px 0px;
