@@ -16,13 +16,6 @@
 .container_fundo.selecionado{
     display: block;
 }
-.somb{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.767);
-    position: absolute;
-    z-index: 2;
-}
 .estrutura_text{
     position: absolute;
     width: 40%;
@@ -54,6 +47,7 @@
 .container_fundo img{
     width: 100%;
     height: 100%;
+    filter: brightness(60%);
 } 
 .estrutura_botao{
     height: 100vh;
@@ -66,7 +60,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgba(0, 0, 0, 0.274);
      z-index: 2;  
 }
 .bots{
@@ -75,6 +68,10 @@
     border: none;
     border-radius: 100%;
     cursor: pointer;
+    filter: brightness(30%);
+}
+.bots.selecionado{
+    filter: brightness(100%);
 }
 .icone{
     width: 100%;

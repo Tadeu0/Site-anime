@@ -3,7 +3,7 @@ const est = document.querySelectorAll('.personagens')
 
 btn.forEach((botao, list) =>{
     botao.addEventListener('click', () =>{
-
+            remover_b()
             remover_img()
 
         botao.classList.add('selecionado')
@@ -17,5 +17,9 @@ btn.forEach((botao, list) =>{
 
 function remover_img(){
     const r = document.querySelector(".personagens.selecionado")
+    r.classList.remove("selecionado")
+}
+function remover_b(){
+    const r = document.querySelector(".bots.selecionado")
     r.classList.remove("selecionado")
 }
